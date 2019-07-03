@@ -13,20 +13,8 @@ public class TestProgram
 	public void launchBrowser()
 	{
 	
-		System.setProperty("webdriver.chrome.driver", "C:\\EclipseWorkspace\\dependencyFile\\chromedriver.exe");
-		 
-		// Initialize browser
-		WebDriver driver=new ChromeDriver();
-		 
-		// Open facebook
-		driver.get("https://www.google.co.in");
-		System.out.println("Browser Open");
-		 
-		// Maximize browser
-		 
-		driver.manage().window().maximize();
-		System.out.println("Browser Close");
-		driver.quit();
+		System.out.println("Welcome to devops");
+		
 		
 	}
 }
