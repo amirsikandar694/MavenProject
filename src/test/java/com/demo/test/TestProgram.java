@@ -12,9 +12,9 @@ public class TestProgram
 	@Test
 	public void launchBrowser()
 	{
-	
+		System.out.println("Jenkin task started");
 		System.out.println("Welcome to devops");
-		System.out.println("Jenkin task complete");
+		System.out.println("Jenkin task completed");
 		
 		
 	}
